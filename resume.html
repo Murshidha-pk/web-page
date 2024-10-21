@@ -40,7 +40,7 @@
 
 
     .card {
-        min-height: 300px;
+        min-height: 250px;
         width: 75%;
 
     }
@@ -55,14 +55,28 @@
     .text-purple {
         color: #db167c;
     }
-    .text{
+
+    .boxes {
+
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-gap: 20px;
+        padding: 10px;
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
+
+    .text {
         font-weight: 500;
     }
-    .experience{
+
+    .experience {
         display: flex;
         align-items: center;
         justify-content: center;
-    
+
     }
 </style>
 
@@ -70,7 +84,7 @@
     <!-- nav bar starting -->
     <nav class="navbar navbar-expand-lg py-3">
         <div class="container">
-            <a class="navbar-brand fs-1  text-primary fw-bold" href="./index.html">Start Bootsrap</a>
+            <a class="navbar-brand fs-1  text-gradient fw-bold" href="./index.html">MURSHIDHA</a>
             <!-- property atribute dataproperty -->
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
                 aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
@@ -112,7 +126,7 @@
                         <button class="btn btn-primary btn-lg fs-5 fw-semibold p-3">
                             <i class="fa-solid fa-download"></i>
                             Download Resume</button>
-                        
+
                     </div>
                 </section>
                 <!-- card-1 -->
@@ -124,7 +138,7 @@
                                 <div class="bg-light p-4 rounded-4 w-100 h-50  ">
                                     <div class="text-primary fw-bolder mb-2">2024 - Present</div>
                                     <div class="small fw-bolder text-dark">Web Devoloper</div>
-                                    <div class="small text-muted pt-2">Intern in luminar technolab</div>
+                                    <div class="small text-muted pt-2">Intern at luminar technolab</div>
 
                                 </div>
 
@@ -208,7 +222,7 @@
                 </div>
                 <!-- skills -->
                 <section>
-                    <div class=" card shadow rounded-4 mx-auto border-0">
+                    <div class=" card shadow rounded-4 mx-auto border-0 mb-4">
                         <div class="card-body p-5">
                             <div class="d-flex align-items-center mt-5">
                                 <div class="icon fs-1 border rounded-2  px-2  bg-color text-white">
@@ -221,31 +235,22 @@
                                 </h3>
 
                             </div>
+                            <div class="row ">
+                                <div class="boxes mt-4">
+                                    <div class="box  border-1 shadow bg-light rounded-2 text-center  p-4">Web Devoloper
+                                    </div>
+                                    <div class="box  border-1 shadow bg-light rounded-2 text-center  p-4">fullstack
+                                    </div>
+                                    <div class="box  border-1 shadow bg-light rounded-2 text-center  p-4">xyz</div>
+                                    <div class="box  border-1 shadow bg-light rounded-2 text-center  p-4">xyz</div>
+                                    <div class="box  border-1 shadow bg-light rounded-2 text-center  p-4">xyz</div>
+                                    <div class="box  border-1 shadow bg-light rounded-2 text-center  p-4">xyz</div>
 
-                            <div class="row  row-cols-1  row-cols-lg-3 g-2 g-lg-3 my-5 ">
-
-                                <div class="col  bg-light rounded-4 text-center mb-4 ">
-                                    <div class="p-4">Web devolopment</div>
-                                </div>
-
-                                <div class="col  border-0 bg-light rounded-4 text-center mb-4 ">
-                                    <div class="p-4">fullstack</div>
-                                </div>
-                                <div class="col  border-0 bg-light rounded-4 text-center mb-4 ">
-                                    <div class="p-4">Origin Software</div>
-                                </div>
-                                <div class="col  border-0 bg-light rounded-4 text-center mb-4">
-                                    <div class="p-4">xyz</div>
-                                </div>
-                                <div class="col  border-0 bg-light rounded-4 text-center mb-4">
-                                    <div class="p-4">xyz</div>
-                                </div>
-                                <div class="col  border-0 bg-light rounded-4 text-center mb-4">
-                                    <div class="p-4">xyz</div>
                                 </div>
                             </div>
 
                             <!-- language -->
+
                             <div class="d-flex align-items-center mt-5">
                                 <div class="icon fs-1 border rounded-2  px-2  bg-color text-white">
                                     <i class="fa-solid fa-code"></i>
@@ -257,61 +262,40 @@
                                 </h3>
 
                             </div>
+                            <div class="row ">
+                                <div class="boxes mt-4">
+                                    <div class="box  border-1 shadow bg-light rounded-2 text-center  p-4">Python
+                                    </div>
+                                    <div class="box  border-1 shadow bg-light rounded-2 text-center  p-4">HTML
+                                    </div>
+                                    <div class="box  border-1 shadow bg-light rounded-2 text-center  p-4">Css</div>
+                                    <div class="box  border-1 shadow bg-light rounded-2 text-center  p-4">My SQL</div>
+                                    <div class="box  border-1 shadow bg-light rounded-2 text-center  p-4">xyz</div>
+                                    <div class="box  border-1 shadow bg-light rounded-2 text-center  p-4">xyz</div>
 
-                            <div class="row  row-cols-1  row-cols-lg-3 g-2 g-lg-3 my-5 ">
-
-                                <div class="col  bg-light rounded-4 text-center mb-4 ">
-                                    <div class="p-4">Python</div>
-                                </div>
-
-                                <div class="col  border-0 bg-light rounded-4 text-center mb-4 ">
-                                    <div class="p-4">Html</div>
-                                </div>
-                                <div class="col  border-0 bg-light rounded-4 text-center mb-4 ">
-                                    <div class="p-4">Css</div>
-                                </div>
-                                <div class="col  border-0 bg-light rounded-4 text-center mb-4">
-                                    <div class="p-4">latex</div>
-                                </div>
-                                <div class="col  border-0 bg-light rounded-4 text-center mb-4">
-                                    <div class="p-4">xyz</div>
-                                </div>
-                                <div class="col  border-0 bg-light rounded-4 text-center mb-4">
-                                    <div class="p-4">xyz</div>
                                 </div>
                             </div>
+
+
+
                         </div>
 
 
 
 
-                        <!-- <div class="col  my-4 ">
-                                    <div class="d-flex align-items-center  rounded-2 bg-light w-auto h-100 p-3">
-                                        Python
-
-                                    </div>
-                                </div>
-                                <div class="col  my-4  ">
-                                    <div class="d-flex align-items-center  rounded-2 bg-light w-auto h-100 p-3">
-                                        Html
-
-                                    </div>
 
 
-                                </div>
-                                <div class=" col   my-4 ">
-                                    <div class="d-flex align-items-center  rounded-2 bg-light w-auto h-100 p-3">
-                                        Css
-
-                                    </div> -->
-
-                        <!-- </div> -->
-                        
                     </div>
-            </div>
 
-            </section>
+
+
+
+
+            </div>
         </div>
+
+        </section>
+    </div>
 
     </div>
     </div>
@@ -343,3 +327,5 @@
 </body>
 
 </html>
+
+<!-- row-cols-1  row-cols-lg-3 g-2 g-lg-3 my-5 ,col  bg-light rounded-4 text-center mb-4-->
